@@ -8,5 +8,7 @@ No it wasn't. When I started this I was thinking I was going to git hit with Tit
 ## 2. What are you excited or eager to learn more about? 
 JavaScript and Python. back in 2015-2016 I played a little bit with JavaScript and Python (More Python than JavaScript) so I'll be excited to try to understand those 2 languages better.
 
+![Code](https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406__480.jpg "Code")
+
 ## 3. What is something about you that can only be learned by reading this blog?
 Im timid and reserved most times but I'm also a GOOFBALL. Laughing is a thing I enjoy a lot. Comedy is also my favorite genre with most things
