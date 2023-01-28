@@ -11,4 +11,6 @@ JavaScript and Python. Back in 2015-2016 I played a little bit with JavaScript a
 <img src="myblog/img/Code pic.jpg" alt="code screen" style="height: 300px; width: 300px; margin: 10px;" />
 
 ## 3. What is something about you that can only be learned by reading this blog?
-I'm timid and reserved most times but I'm also a GOOFBALL. Laughing is a thing I enjoy a lot. Comedy is also my favorite genre.
+I'm timid and reserved most times but I'm also a GOOFBALL. Laughing is a thing I enjoy a lot. Comedy is also my favorite genre. Being normal is overrated sometimes.
+
+<img src="myblog/img/Comedy.gif" alt="Facts" />
