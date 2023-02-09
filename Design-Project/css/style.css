@@ -1,0 +1,16 @@
+.logoMain {
+    height: 300px;
+    width: auto;
+    margin: 20px;
+}
+
+.cardName {
+    font-size: 29px;
+    margin: 20px;
+}
+
+.svgImage {
+    height: 30px;
+    width: auto;
+    margin: 25px;
+}
