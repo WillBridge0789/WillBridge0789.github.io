@@ -31,3 +31,19 @@ Reading and trying to understand the documentation. The reading ends up taking m
 
 ### 5. **How did you overcome challenges during Onboarding?**
 I keep telling myself "You dont know what you dont know", "Do what you can", and "You got this". Reassuing myself only does so much but I keep repeating those things to myself, BREATHE, and then reread what Ive read before. 
+
+# Sprint 1
+
+### 1. What is the number one thing that held you back this week? Why?
+Maybe I'm holding myself back. When I am working on things, sometimes I worry about my surroundings which tend to take my attention off of what I need to do. I live with 2 other people after all. One of them being my partner. 
+
+### 2. What is one thing you would like to learn more about regarding JavaScript (JSON, Data Structures), Bootstrap, or Atomic Design?
+ 1. I want to understand and learn functions and about structuring the data types correctly.<br>
+ **AND**
+ 2. Get a more solidified foundation on bootstrap frameworks and its principles   
+
+### 3. How does In-Person Bootcamp compare to Remote Onboarding?
+I feel like in-person bootcamp would make classmates and work a bit more engaging compared to remote.
+
+### 4. What is your “Why”?
+Why are the logical side and the artist side of my brain arguing?
