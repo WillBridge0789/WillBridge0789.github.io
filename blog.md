@@ -46,4 +46,4 @@ Maybe I'm holding myself back. When I am working on things, sometimes I worry ab
 I feel like in-person bootcamp would make classmates and work a bit more engaging compared to remote.
 
 ### 4. What is your “Why”?
-Why are the logical side and the artist side of my brain arguing?
+In the past, I've always put people before myself. One of the main reasons "why" is because I'm doing this for MYSELF for once. My partner and the kid comes second. He knows, understands and fully supports me while doing this. I am going to try my hardest not to let myself down...and I wont let him and the kid down either.
