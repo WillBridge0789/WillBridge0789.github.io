@@ -47,3 +47,16 @@ I feel like in-person bootcamp would make classmates and work a bit more engagin
 
 ### 4. What is your “Why”?
 In the past, I've always put people before myself. One of the main reasons "why" is because I'm doing this for MYSELF for once. My partner and the kid comes second. He knows, understands and fully supports me while doing this. I am going to try my hardest not to let myself down...and I wont let him and the kid down either.
+
+# Sprint 2
+### 1. What did you learn about that helped you understand the development process?
+What helped me was going back to reread some of the resources and documentation given to me. It a great deal; especially with this weeks project.
+
+### 2. What does it mean to develop good code?
+I'm going to guess and say its coding dynamically. I cant elaborate more on that currently, but thats the first thing I thought.
+
+### 3. What does it mean to be a good developer?
+Organizing and cleaning up code, making everything readable and leaving comments to explain what block of code is doing what.
+
+### 4. What is one thing that programmers hate doing?
+I would think micromanaging and maybe BEING micromanaged. 
