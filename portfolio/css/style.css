@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(239, 217, 201);
+    background-image: linear-gradient(to bottom, bisque, white);
 }
 
 body img {
@@ -7,16 +7,33 @@ body img {
     display: flex;
 }
 
-
-
-#main-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
+.main-para{
+    background-color: floralwhite;
 }
 
+/*.head-banner {
+    position: relative;
+} */
 
-.navbar-toggle .navbar-toggler-icon {
-    color: white;
+#main-header {
+   /* position: absolute;
+    top: 125px;
+    left: 50px; */
+    padding: 225px;
+
+    color: brown;
+}
+
+/* .col-5 img {
+    box-shadow: 5px 5px 5px rgb(118, 58, 34);
+} */
+
+a:active {
+    color: brown;
+}
+
+.navbar {
+    color: rgb(137, 80, 32);
+    box-shadow:3px 3px 3px rgb(205, 152, 109);
 }
 
