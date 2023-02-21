@@ -1,6 +1,20 @@
 body {
-    background-color: lavender;
+    background-color: rgb(239, 217, 201);
 }
+
+body img {
+    width: 100%;
+    display: flex;
+}
+
+
+
+#main-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
 
 .navbar-toggle .navbar-toggler-icon {
     color: white;
