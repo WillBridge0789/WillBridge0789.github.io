@@ -1,6 +1,3 @@
 #main {
-    background-image: url("portfolio/img/geoBg2.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: bisque;
 }
