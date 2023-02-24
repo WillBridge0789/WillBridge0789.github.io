@@ -1,5 +1,7 @@
 body {
-    background-image: linear-gradient(to bottom, bisque, white);
+    background-image: url(/portfolio/img/lightbulb.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 body img {
@@ -21,7 +23,7 @@ body img {
     left: 50px; */
     padding: 225px;
 
-    color: brown;
+    color: floralwhite;
 }
 
 /* .col-5 img {
@@ -34,6 +36,5 @@ a:active {
 
 .navbar {
     color: rgb(137, 80, 32);
-    box-shadow:3px 3px 3px rgb(205, 152, 109);
 }
 
