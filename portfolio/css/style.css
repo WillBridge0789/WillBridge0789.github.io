@@ -1,0 +1,40 @@
+body {
+    background-image: url(/portfolio/img/lightbulb.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body img {
+    width: 100%;
+    display: flex;
+}
+
+.main-para{
+    background-color: floralwhite;
+}
+
+/*.head-banner {
+    position: relative;
+} */
+
+#main-header {
+   /* position: absolute;
+    top: 125px;
+    left: 50px; */
+    padding: 225px;
+
+    color: floralwhite;
+}
+
+/* .col-5 img {
+    box-shadow: 5px 5px 5px rgb(118, 58, 34);
+} */
+
+a:active {
+    color: brown;
+}
+
+.navbar {
+    color: rgb(137, 80, 32);
+}
+
