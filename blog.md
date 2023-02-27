@@ -59,4 +59,8 @@ I'm going to guess and say its coding dynamically. I cant elaborate more on that
 Organizing and cleaning up code, making everything readable and leaving comments to explain what block of code is doing what.
 
 ### 4. What is one thing that programmers hate doing?
-I would think micromanaging and maybe BEING micromanaged. 
+I would think micromanaging and maybe BEING micromanaged.
+
+# Sprint 3 Technical Article
+### 1. What is pseudocode and how does it help with programming?
+Pseudocode is writing code, not in actual code but in English. Its essentially an outline to help make sense of what you're going to actually code logically.
