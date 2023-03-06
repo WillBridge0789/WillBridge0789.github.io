@@ -1,5 +1,5 @@
 body {
-    background-image: url(/portfolio/img/lightbulb.jpg);
+    background-color: #F9DBBD;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -9,8 +9,17 @@ body img {
     display: flex;
 }
 
+#top-nav {
+    color: #0D0628;
+}
+
+#top-nav:hover {
+    color: #9A348E;
+}
+
 .main-para{
-    background-color: floralwhite;
+    color: #F9DBBD;
+    background-color: #DA627D;
 }
 
 /*.head-banner {
@@ -22,19 +31,18 @@ body img {
     top: 125px;
     left: 50px; */
     padding: 225px;
-
-    color: floralwhite;
+    color: #0D0628;
 }
 
 /* .col-5 img {
     box-shadow: 5px 5px 5px rgb(118, 58, 34);
 } */
 
-a:active {
-    color: brown;
+a {
+    color: #FCA17D;
 }
+ a:hover {
+    color: #F9DBBD;
+ }
 
-.navbar {
-    color: rgb(137, 80, 32);
-}
 
