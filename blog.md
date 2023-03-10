@@ -60,3 +60,13 @@ Organizing and cleaning up code, making everything readable and leaving comments
 
 ### 4. What is one thing that programmers hate doing?
 I would think micromanaging and maybe BEING micromanaged. 
+
+# Sprint 6 
+### 1. Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?
+I think they are a little bit easier because you dont have to type nearly as much as you would with just vanilla JS.
+
+### 2. What Frameworks or Libraries are you interested in learning more about?
+I would like to learn more on React to get a better grasp of the concepts. Another one I am curious about is Django.
+
+### 3. Find one emerging JavaScript tool that you would like to learn more about or use in your final project.
+I'm not for sure yet. (answer will change when I come up with it).
