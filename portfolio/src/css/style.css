@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&display=swap');
+
 body {
-    background-color: #F9DBBD;
+    background-color: white;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -18,7 +20,7 @@ body img {
 }
 
 .main-para{
-    color: #F9DBBD;
+    color: #2D3142;
     background-color: #DA627D;
 }
 
@@ -26,10 +28,12 @@ body img {
     position: relative;
 } */
 
-#main-header {
+.head-title {
    /* position: absolute;
     top: 125px;
     left: 50px; */
+    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
+    font-size: 100px;
     padding: 225px;
     color: #0D0628;
 }
