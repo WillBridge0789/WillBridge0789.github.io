@@ -61,6 +61,14 @@ Organizing and cleaning up code, making everything readable and leaving comments
 ### 4. What is one thing that programmers hate doing?
 I would think micromanaging and maybe BEING micromanaged. 
 
+# Sprint 5
+### 1. What have you learned about CLIs? Do you think they are scary?
+Ive learned they are very case and spelling sensitive and they can be scary if you've typed something and start seeing a large block of RED.
+### 2. If you were to build a CLI, what would it do?
+I haven't thought about that....maybe make a command that would add, commit and push all at once. (There is probably one like that already)
+### 3. List some ideas that without a Framework, would take you a long time to code
+A web page in general? I would think any web page at this point would take a bit of planning in order for it to work.
+
 # Sprint 6 
 ### 1. Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?
 I think they are a little bit easier because you dont have to type nearly as much as you would with just vanilla JS.
