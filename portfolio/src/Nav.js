@@ -8,7 +8,7 @@ function NavBar() {
         </button>
         <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <a className="nav-link active nav-home" aria-current="page" href="#">Home</a>
             <a className="nav-link" href="about.html">About</a>
             <a className="nav-link" href="#">Blog</a>
             <a className="nav-link" href="#">Projects</a>
