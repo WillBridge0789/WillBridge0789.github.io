@@ -22,6 +22,10 @@ body img {
     color: #9A348E;
 }
 
+#main-header {
+    text-align: center;
+}
+
 .main-para{
     color: #BFC0C0;
     background-color: #4F5D75;
