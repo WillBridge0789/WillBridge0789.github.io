@@ -1,4 +1,4 @@
-function Bodycon2() {
+function Projects() {
     return (
         <div className="container d-flex justify-content-start text-center">
             <div className="row align-items-start">
@@ -62,4 +62,4 @@ function Bodycon2() {
         </div>
     )
 }
-export default Bodycon2;
+export default Projects;
