@@ -1,17 +1,12 @@
 //import logo from './logo.svg';
 import './css/style.css';
 //import './css/styles2.css';
-import NavBar from './Nav';
-import Header from './Header';
-import Bodycon from './Bodycon';
-import Projects from './Projects';
+import Home from './Home';
+
 function App() {
   return (
     <div>
-      <NavBar />
-      <Header />
-      <Bodycon />
-      <Projects />
+      <Home />
     </div>
   );
 }
