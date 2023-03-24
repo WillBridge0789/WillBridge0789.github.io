@@ -78,3 +78,23 @@ I would like to learn more on React to get a better grasp of the concepts. Anoth
 
 ### 3. Find one emerging JavaScript tool that you would like to learn more about or use in your final project.
 I'm not for sure yet. (answer will change when I come up with it).
+
+## Sprint 7
+### 1. Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past? What do you think is going to be the next biggest thing to power through?
+Can't answer the first but for the second, Just being able to have a better understanding on how these languages work together and to use them more dynamically and efficiently.
+
+### 2. Compared to earlier, what are three ideas you might want to do for your final project? Are they the same ideas as before, or have they changed now that you understand more about the technology and your limitations?
+They may have changed. I'm not entirely for sure yet where I'm focusing on the present more than whats ahead.
+
+### 3. What surprised you about your first week in Python and how was it different from your first week in JavaScript? 
+How much I remembered from when I first studied Python 7 years ago. Most of what I learned from the past came back and helped me get through some challenges.
+
+## Sprint 8
+### 1. What are some similarities and differences you can see with JS and Python?
+They both have some methods that actually do the same things. The syntax between the 2 is very noticable with the lack of semi-colons, brackets and sometimes curly brackets.
+
+### 2. If you had started with Python instead of JS, how do you think the Bootcamp would be different? Would you have benefited?
+I'm not for sure. JS is loosly typed where Python is a lot more strict with syntax. I think just on the aformentioned point, that would make it a little easier. That is just my guess though.
+
+### 3. Think of a project or tech based tool that you use often and think about what the database structure might look like for it. Do you feel like you have a better understanding of how it works now and could you see yourself enjoying building something like that in the future? 
+I kind of do when reading it. Structuring is still my achelles heel here, but I feel like I could enjoy working with it and building a unique database.
