@@ -8,7 +8,8 @@ function Home() {
         <div className="row">
           <div className="col">
             <header id="main-header">
-              <h1 className="head-title">Welcome to Will's Portfolio Landing Page</h1>
+              <h1 className="head-title">William J. Burbridge</h1>
+              <h3 className="sub-title">Web Developer</h3>
             </header>
           </div>
         </div>
