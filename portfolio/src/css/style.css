@@ -49,10 +49,11 @@ body img {
 }
 
 a {
-    color: #EF835A;
+    color: white;
+    text-decoration: none;
 }
  a:hover {
-    color: #FFFFFF;
+    color: #EF835A;
 }
 
 .nav-link, .navbar-brand, .nav-home {
@@ -70,6 +71,11 @@ a {
 #contact-header {
     font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
     color: white;
+    margin-top: 50px;
+}
+
+h5 {
+    font-weight: bold;
 }
 
 li {
@@ -80,4 +86,16 @@ li {
 #contact_p {
     color: #BFC0C0;
     font-size: larger;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6 {
+    height: 150px;
+    width: 150px;
+    border-color: white;
+} 
+
+.card {
+    background-color: #4F5D75;
+    color: white;
+    box-shadow: 5px 5px 2px #1d202b;
 }
