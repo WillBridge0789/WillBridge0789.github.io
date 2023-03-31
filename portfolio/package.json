@@ -1,4 +1,5 @@
 {
+  "homepage": "https://willbridge0789.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +17,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "homepage": "https://willbridge0789.github.io",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
