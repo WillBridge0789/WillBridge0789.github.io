@@ -1,5 +1,6 @@
 import NavBar from "./Nav";
 import Image from "./Image1";
+import Footer from "./Footer";
 
 function About() {
     return(
@@ -14,6 +15,7 @@ function About() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>        
     )
 }

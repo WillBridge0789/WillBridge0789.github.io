@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import NavBar from "./Nav";
 
 function Blog() {
@@ -7,6 +8,7 @@ function Blog() {
             <div>
                 <h1>Blog</h1>
             </div>
+            <Footer />
         </div>    
     )
 }
