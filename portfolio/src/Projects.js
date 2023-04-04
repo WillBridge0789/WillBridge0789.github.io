@@ -41,20 +41,24 @@ function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-12 mt-4 d-flex justify-content-center">
-                        <div className="card">
-                            <img src="./img/list2.png" id="img5" className="card-img-top m-5" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">To-Do-List</h5>
-                                </div>
+                        <div className="col-lg-4 col-12 mt-4 d-flex justify-content-center">
+                            <div className="card">
+                                <a href="https://willbridge0789.github.io/to-do-list/">
+                                    <img src="./img/list2.png" id="img5" className="card-img-top m-5" alt="..." />
+                                        <div className="card-body">
+                                            <h5 className="card-title">To-Do-List</h5>
+                                        </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
                     <div className="col-lg-4 col-12 mt-4 d-flex justify-content-center">
                         <div className="card">
-                            <img src="./img/food.png" id="img6" className="card-img-top m-5" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">React Restaurant</h5>
-                                </div>
+                            <a href="https://willbridge0789.github.io/react-restaurant/">
+                                <img src="./img/food.png" id="img6" className="card-img-top m-5" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">React Restaurant</h5>
+                                    </div>
+                            </a>
                         </div>
                     </div>
                 </div>
