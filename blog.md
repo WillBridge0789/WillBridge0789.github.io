@@ -59,4 +59,63 @@ I'm going to guess and say its coding dynamically. I cant elaborate more on that
 Organizing and cleaning up code, making everything readable and leaving comments to explain what block of code is doing what.
 
 ### 4. What is one thing that programmers hate doing?
+Micromanagement and being micromanaged.
+
+# Sprint 3: Technical Article
+### 1. What is pseudocode and how does it help with programming?
+It helps with planning the project out(code layout, functions that can be used, etc.), helps with questions for unknowns, and possibly helps with defensive programming.
+
+# Sprint 4: React Intro
+### 1. Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?
+React was a little easier just because you are making functions in separate sections as opposed to being on 1 whole file.
+
+### 2. What Frameworks or Libraries are you interested in learning more about?
+I would like to know more about react just so I can get a comfortable feel for it.
+
+### 3. Find one emerging JavaScript tool that you would like to learn more about or use in your final project.
+Maybe Angular? And that's not a guarantee that I'll be able to have time to learn it to use it in the final project.
+
+# Sprint 5: CLI
+### 1. What have you learned about CLIs? Do you think they are scary?
+I've learned that without a single concept of knowing how CLI's work, it can hinder your workflow. In turn, it CAN be scary because if you also dont know which command to use when a specific situation occurs, it could erase your work!  
+
+### 2. If you were to build a CLI, what would it do?
+Make it to where it asks if you're sure you want to execute a command before executing it. I'd also include a "advice" part per command to give you an idea of what COULD happen after execution.
+
+### 3. List some ideas that without a Framework, would take you a long time to code
+A portfolio website or any web app really...
+
+# Sprint 6: Halfway!
+### 1. Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past? What do you think is going to be the next biggest thing to power through?
+Having a basic understanding of Javascript as a whole. My next biggest hurdle that I HAVE to power through is planning correctly. I've been having trouble planning things before coding them out and wondering if I'm even planning correctly to where it benefits me in the long run. The fight continues I suppose.
+
+### 2. Compared to earlier, what are three ideas you might want to do for your final project? Are they the same ideas as before, or have they changed now that you understand more about the technology and your limitations?
+I'm now stuck between making like a mock comic web site or a mock game website. So yes, it has changed since then.
+
+### 3. What surprised you about your first week in Python and how was it different from your first week in JavaScript? 
+I studied a little bit more Python than I did with Javascript back in 2016. It suprised me how much I remembered about it when we had a session on the basics.
+
+# Sprint 7: Python
+### 1. What are some similarities and differences you can see with JS and Python?
+JS and Python have a lot of methods are are similar to each other and that work the same way. The obvious difference is the syntax.
+
+### 2. If you had started with Python instead of JS, how do you think the Bootcamp would be different? Would you have benefited?
+I think it'd be confusing because where we started with Front-end languages (HTML, CSS), then just jump into a back-end like Python, AND THEN jump back into a front-end like Javascript would make me lose translation of how things tie together.
+
+### 3. Think of a project or tech based tool that you use often and think about what the database structure might look like for it. Do you feel like you have a better understanding of how it works now and could you see yourself enjoying building something like that in the future? 
+I don't know. I definitely see myself building something in the future but as to what I'm looking forward to building specifically, I don't know.
+
+# Sprint 8: Django 1
+### 1. What are you struggling with the most in the Tech Stack so far and why?
+Some Python and Django. Python and Django are HUGE and I dont feel like I'm understanding enough of it to get a decent foothold on the concepts that make it work. 
+
+### 2. What companies or people (local or not) would you like to hear talk during a Bootcamp lunch and learn?
+Honestly all the Awesome inc partner companies. 
+
+### 3. After having built your first full-stack application, what things in your repertoire are a sticking point for you? Were you able to reconnect your React Restaurant to your Backend Bistro code? If so, what was that like, and if not, what hurdles did you need to jump? 
+I haven't and a hurdle I need to jump is trying NOT to figure out what goes on under the hood.
+
+
+
+
 
