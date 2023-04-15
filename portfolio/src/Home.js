@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <NavBar />
-      <div className="container-fluid">
+      <div className="container-fluid fade-in-l">
         <div className="row">
           <div className="col">
             <header id="main-header">

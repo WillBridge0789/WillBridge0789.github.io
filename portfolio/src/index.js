@@ -9,6 +9,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
