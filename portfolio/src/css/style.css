@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&display=swap'); */
 
 body {
-    background-color: #2D3142;
+    background-color: rgb(35, 34, 34);
     background-size: 100%;
 }
 
@@ -11,36 +11,46 @@ body img {
 }
 
 #top-nav {
-    background-color: #2D3142;
+    background-color: rgb(35, 34, 34);
 }
 
 #navbarNavAltMarkup {
     color: #BFC0C0;
 }
 
-#main-header {
-    text-align: center;
-}
+/* #main-header { */
+    /* text-align: center; */
+/* } */
 
 .main-para {
     color: #BFC0C0;
-    background-color: #4F5D75;
+    background-color: rgb(35, 34, 34);
     height: 400px;
     width: 500px;
     text-align: center;
     border-radius: 5px;
     font-size: large;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right,
+            red, orange, yellow, green, blue, indigo, violet) 1;
 }
 
 #mypic {
     height: 475px;
     width: 425px;
+    border-style: none;
 }
 
 .head-title {
-    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
     font-size: 75px;
-    padding: 200px;
+    padding: 30px;
+    color: white;
+}
+
+.head-title2 {
+    font-size: 50px;
+    padding: 30px;
     color: white;
 }
 
@@ -106,16 +116,28 @@ li {
     border-color: white;
 }
 
+#week1,
+#week2,
+#week3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+}
+
 .card {
-    background-color: #4F5D75;
+    background-color: rgb(35, 34, 34);
     color: white;
-    box-shadow: 5px 5px 2px #1d202b;
+    box-shadow: 5px 5px 2px black;
 }
 
 .card:hover {
-    background-color: #EF835A;
-
     transform: scale(10px);
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right,
+            red, orange, yellow, green, blue, indigo, violet) 1;
 }
 
 #main-footer {
@@ -127,6 +149,8 @@ li {
     color: #BFC0C0;
     bottom: 0;
 }
+
+/*---------------------------Animations-----------------------------*/
 
 .fade-in-l {
     opacity: 0;
@@ -204,3 +228,6 @@ li {
 .fade-in-b:nth-child(6) {
     animation-delay: 1.2s;
 }
+
+/*------------------Animations: Rolodex---------------------------*/
+
