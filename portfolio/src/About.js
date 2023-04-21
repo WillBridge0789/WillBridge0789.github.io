@@ -1,24 +1,41 @@
+import { useEffect } from "react";
 import NavBar from "./Nav";
 import Image from "./Image1";
 import Footer from "./Footer";
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
-    return(
-        <div>
-            <NavBar />
-            <div className="container">
-                <div className="row min-vh-100 d-flex align-items-center">
-                    <Image className="fade-in-l"/>
-                    <div className="col-6">
-                        <p className="main-para p-5 fade-in-r">Hello! My name Will! During my free time I enjoy 75 degree weather (whenever we get it), creating digital art pieces, and coding. I have been coding for several months now. This has been and still is an amazing journey to continue to learn and build new things.
-                        I have worked with Front-End(HTML5, CSS3, JavaScript, React) and Back-End(Python, SQL) languages and have found fun in problem solving.</p>
-                    </div>
-                </div>
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  return (
+    <div>
+      <NavBar />
+      <div
+        data-aos="fade-left" //Here you can use any of the AOS animations
+      >
+        <div className="container">
+          <div className="row min-vh-100 d-flex align-items-center">
+            <Image className="fade-in-l" />
+            <div className="col-6">
+              <p className="main-para p-5 fade-in-r">
+                Hello! My name Will! During my free time I enjoy 75 degree
+                weather (whenever we get it), creating digital art pieces, and
+                coding. I have been coding for several months now. This has been
+                and still is an amazing journey to continue to learn and build
+                new things. I have worked with Front-End(HTML5, CSS3,
+                JavaScript, React) and Back-End(Python, SQL) languages and have
+                found fun in problem solving.
+              </p>
             </div>
-            {/* <Footer /> */}
-        </div>        
-    )
+          </div>
+        </div>
+      </div>
+      {/* <Footer /> */}
+    </div>
+  );
 }
-
 
 export default About;
