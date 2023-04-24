@@ -16,18 +16,19 @@ function About() {
       <div
         data-aos="fade-left" //Here you can use any of the AOS animations
       >
-        <div className="container">
-          <div className="row min-vh-100 d-flex align-items-center">
+        <div className="container overflow-hidden" id="about_container">
+          <div className="row min-vh-100 gx-5 d-flex align-items-center">
             <Image className="fade-in-l" />
             <div className="col-6">
-              <p className="main-para p-5 fade-in-r">
-                Hello! My name Will! During my free time I enjoy 75 degree
-                weather (whenever we get it), creating digital art pieces, and
-                coding. I have been coding for several months now. This has been
-                and still is an amazing journey to continue to learn and build
-                new things. I have worked with Front-End(HTML5, CSS3,
-                JavaScript, React) and Back-End(Python, SQL) languages and have
-                found fun in problem solving.
+              <p className="main-para p-3 fade-in-r">
+                Hi, my name is Will Burbridge!
+                <br />I used to work in the customer service/retail field for
+                several years. While working in customer service and retail, I
+                dabbled in some web design and even had some courses involving
+                code which has been a constant interest to me. I joined Awesome
+                Inc's bootcamp to further my interest in code and to create
+                things on a technical level. My main hobby is digital art with
+                creating characters, even some small graphic novels
               </p>
             </div>
           </div>

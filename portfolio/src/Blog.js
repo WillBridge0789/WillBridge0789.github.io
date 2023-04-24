@@ -5,31 +5,27 @@ import Week2 from "./blogs/Week2";
 import Week3 from "./blogs/Week3";
 
 function Blog() {
-    return (
-        <div>
-            <NavBar />
-            <div class="rolodex-container">
-                <div class="rolodex">
-                    <div class="rolodex-card">
-                        <div class="rolodex-card-front">
-                            <Week1 />
-                        </div>
-                    </div>
-                    <div class="rolodex-card">
-                        <div class="rolodex-card-front">
-                            <Week2 />
-                        </div>
-                    </div>
-                    <div class="rolodex-card">
-                        <div class="rolodex-card-front">
-                            <Week3 />
-                        </div>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div>
+      <NavBar />
 
+      <div className="container">
+        <div className="row" id="blog_row">
+          <div className="col-6">
+            <Week1 />
+          </div>
+          <div className="col-6">
+            <Week2 />
+          </div>
         </div>
-    )
+        <div className="row">
+          <div className="col-6">
+            <Week3 />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Blog;

@@ -1,7 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&family=Permanent+Marker&display=swap');
 
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     background-size: 100%;
 }
 
@@ -11,47 +12,55 @@ body img {
 }
 
 #top-nav {
-    background-color: rgb(35, 34, 34);
+    box-shadow: 5px 3px 3px rgb(185, 165, 132);
 }
 
 #navbarNavAltMarkup {
     color: #BFC0C0;
 }
 
-/* #main-header { */
-    /* text-align: center; */
-/* } */
+#main-header {
+    font-family: 'Permanent Marker', 'Courier New', Courier, monospace;
+}
 
 .main-para {
-    color: black;
-    background-color: lightgrey;
-    height: 400px;
+    color: rgb(39, 24, 8);
+    /* height: 400px; */
     width: 500px;
     text-align: center;
     border-radius: 5px;
-    font-size: large;
-    border-width: 2px;
-    border-style: solid;
-    border-image: linear-gradient(to right,
-            red, orange, yellow, green, blue, indigo, violet) 1;
+    font-size: x-large;
+    /* border-width: 2px;
+    border-style: solid; */
+    /* border-image: linear-gradient(to right,
+            red, orange, yellow, green, blue, indigo, violet) 1; */
 }
 
 #mypic {
-    height: 475px;
+    height: 550px;
     width: 425px;
     border-style: none;
+    border-radius: 20px;
+} 
+
+#about_container {
+    background: linear-gradient(to right, rgb(185, 165, 132), rgb(243, 231, 211), white);
+}
+
+#blog_row {
+    background: linear-gradient(to bottom, rgb(185, 165, 132), rgb(243, 231, 211), white);
 }
 
 .head-title {
     font-size: 75px;
     padding: 30px;
-    color: grey;
+    color: rgb(39, 24, 8);
 }
 
 .head-title2 {
     font-size: 50px;
     padding: 30px;
-    color: grey;
+    color: rgb(39, 24, 8);
 }
 
 .sub-title {
@@ -70,13 +79,14 @@ a:hover {
 .nav-link,
 .navbar-brand,
 .nav-home {
-    color: #BFC0C0;
+    color: rgb(39, 24, 8);
+    font-family: 'Permanent Marker', 'cursive';
 }
 
 .nav-link:hover,
 .navbar-brand:hover,
 .nav-home:hover {
-    color: #EF835A;
+    color: #f5d7b1;
 }
 
 .nav-link:active,
@@ -86,7 +96,7 @@ a:hover {
 }
 
 #contact-header {
-    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
     color: black;
     margin-top: 50px;
 }
@@ -127,9 +137,9 @@ li {
 }
 
 .card {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     color: black;
-    box-shadow: 5px 5px 5px darkgrey;
+    box-shadow: 5px 3px 3px rgb(185, 165, 132);
 }
 
 .card:hover {
