@@ -72,9 +72,9 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
     color: #EF835A;
-}
+} */
 
 .nav-link,
 .navbar-brand,
