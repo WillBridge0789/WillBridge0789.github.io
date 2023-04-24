@@ -12,7 +12,7 @@ body img {
 }
 
 #top-nav {
-    box-shadow: 5px 3px 3px rgb(185, 165, 132);
+    box-shadow: 5px 3px 3px #BFC0C0;
 }
 
 #navbarNavAltMarkup {
@@ -24,7 +24,7 @@ body img {
 }
 
 .main-para {
-    color: rgb(39, 24, 8);
+    color: #1F1F1F;
     /* height: 400px; */
     width: 500px;
     text-align: center;
@@ -43,12 +43,12 @@ body img {
     border-radius: 20px;
 } 
 
-#about_container {
-    background: linear-gradient(to right, rgb(185, 165, 132), rgb(243, 231, 211), white);
-}
+/* #about_container {
+    background: linear-gradient(to bottom, #1F1F1F, #BFC0C0, white);
+} */
 
 #blog_row {
-    background: linear-gradient(to bottom, rgb(185, 165, 132), rgb(243, 231, 211), white);
+    background: linear-gradient(to bottom, #1F1F1F, #BFC0C0, white);
 }
 
 .head-title {
@@ -86,7 +86,8 @@ a:hover {
 .nav-link:hover,
 .navbar-brand:hover,
 .nav-home:hover {
-    color: #f5d7b1;
+    color: #BFC0C0;
+    background-color: #1F1F1F;
 }
 
 .nav-link:active,
@@ -139,11 +140,13 @@ li {
 .card {
     /* background-color: lightgrey; */
     color: black;
-    box-shadow: 5px 3px 3px rgb(185, 165, 132);
+    box-shadow: 5px 3px 3px #1F1F1F;
 }
 
 .card:hover {
     transform: scale(10px);
+    background-color: #1F1F1F;
+    color:#BFC0C0;
     border-width: 2px;
     border-style: solid;
     border-image: linear-gradient(to right,
@@ -239,8 +242,12 @@ li {
     animation-delay: 1.2s;
 }
 
-/*------------------Animations: Rolodex---------------------------*/
+/*------------------Rainbow Hover---------------------------*/
 
+/* .rainbow:hover {
+    color: transparent;
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+} */
 
 
 

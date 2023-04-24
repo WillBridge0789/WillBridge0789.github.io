@@ -25,16 +25,16 @@ function NavBar() {
         >
           <div className="navbar-nav">
             {/* <Link to="/home" class="nav-link nav-home">Home</Link> */}
-            <Link to="/about" class="nav-link">
+            <Link to="/about" class="nav-link rainbow">
               About
             </Link>
-            <Link to="/blog" class="nav-link">
+            <Link to="/blog" class="nav-link rainbow">
               Blog
             </Link>
-            <Link to="/projects" class="nav-link">
+            <Link to="/projects" class="nav-link rainbow">
               Projects
             </Link>
-            <Link to="/contact" class="nav-link">
+            <Link to="/contact" class="nav-link rainbow">
               Contact
             </Link>
           </div>
