@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import App from './App';
-import Home from './Home';
-import About from './About';
-import Blog from './Blog';
-import Projects from './Projects';
-import Contact from './Contact';
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import App from "./App";
+import Home from "./Home";
+import About from "./About";
+import Blog from "./Blog";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -35,13 +35,11 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />,
   },
+]);
 
-])
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-

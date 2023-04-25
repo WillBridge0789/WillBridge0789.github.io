@@ -7,7 +7,7 @@ function SelfImg() {
   }, []);
   return (
     <div
-      className="col-6"
+      className="col-md-12 col-lg-6"
       data-aos="fade-zoom-in"
       data-aos-easing="ease-in-back"
       data-aos-delay="300"

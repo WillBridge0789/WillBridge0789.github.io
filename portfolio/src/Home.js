@@ -10,7 +10,7 @@ function Home() {
       <NavBar />
       <div className="container fade-in-l">
         <div className="row">
-          <div className="col-6">
+          <div className="col-md-12 col-lg-6">
             <header id="main-header">
               <h2 className="head-title">William J. Burbridge</h2>
               <h2 className="head-title2">Junior Web Developer</h2>

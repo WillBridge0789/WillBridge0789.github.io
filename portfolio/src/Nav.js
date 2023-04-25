@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function NavBar() {
