@@ -3,12 +3,17 @@ import Footer from "./Footer";
 import SelfImg from "./SelfImg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
       <NavBar />
-      <div className="container fade-in-l">
+      <div className="container" data-aos="fade-right">
         <div className="row">
           <div className="col-md-12 col-lg-6">
             <header id="main-header">

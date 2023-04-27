@@ -122,8 +122,8 @@ li {
 #img4,
 #img5,
 #img6 {
-    height: 150px;
-    width: 150px;
+    /* height: 350px;
+    width: 350px; */
     border-color: white;
 }
 
@@ -140,11 +140,11 @@ li {
 .card {
     /* background-color: lightgrey; */
     color: black;
+    padding: 0;
     box-shadow: 5px 3px 3px #1F1F1F;
 }
 
 .card:hover {
-    transform: scale(10px);
     background-color: #1F1F1F;
     color:#BFC0C0;
     border-width: 2px;
