@@ -20,22 +20,19 @@ function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div
-          className="collapse navbar-collapse d-flex justify-content-center"
-          id="navbarNavAltMarkup"
-        >
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             {/* <Link to="/home" class="nav-link nav-home">Home</Link> */}
-            <Link to="/about" class="nav-link rainbow">
+            <Link to="/about" className="nav-link rainbow">
               About
             </Link>
             {/* <Link to="/blog" class="nav-link rainbow">
               Blog
             </Link> */}
-            <Link to="/projects" class="nav-link rainbow">
+            <Link to="/projects" className="nav-link rainbow">
               Projects
             </Link>
-            <Link to="/contact" class="nav-link rainbow">
+            <Link to="/contact" className="nav-link rainbow">
               Contact
             </Link>
           </div>

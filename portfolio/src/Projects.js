@@ -17,7 +17,7 @@ function Projects() {
         </div>
         <div className="row d-flex justify-content-center" data-aos="fade-up">
           <div className="col-md-4 d-flex justify-content-center mt-4">
-            <a href="http://willbridge0789.gitpod.io/alarm_clock/">
+            <a href="http://willbridge0789.gitpod.io/alarm-clock/">
               <figure>
                 <img
                   src="./img/Alarm_clock.png"

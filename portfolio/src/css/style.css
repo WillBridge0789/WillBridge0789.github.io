@@ -15,10 +15,6 @@ body img {
     background: radial-gradient(circle at 30%, white, #fcf4ed);
 }
 
-#top-nav {
-    box-shadow: 5px 3px 3px #BFC0C0;
-}
-
 #navbarNavAltMarkup {
     color: #BFC0C0;
 }
@@ -71,6 +67,7 @@ body img {
 a {
     color: white;
     text-decoration: none;
+    font-family: 'Permanent Marker', 'cursive';
 }
 
 /* a:hover {
@@ -82,9 +79,7 @@ figcaption {
     color:rgb(39, 24, 8);
 }
 
-.nav-link,
-.navbar-brand,
-.nav-home {
+.nav-link {
     color: rgb(39, 24, 8);
     font-family: 'Permanent Marker', 'cursive';
 }
@@ -92,14 +87,7 @@ figcaption {
 .nav-link:hover,
 .navbar-brand:hover,
 .nav-home:hover {
-    color: #BFC0C0;
-    background-color: #1F1F1F;
-}
-
-.nav-link:active,
-.navbar-brand:active,
-.nav-home:active {
-    color: #FFFFFF;
+    color: #4F5D75;
 }
 
 #contact-header {
