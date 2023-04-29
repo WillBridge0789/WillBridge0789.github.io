@@ -29,9 +29,9 @@ function NavBar() {
             <Link to="/about" class="nav-link rainbow">
               About
             </Link>
-            <Link to="/blog" class="nav-link rainbow">
+            {/* <Link to="/blog" class="nav-link rainbow">
               Blog
-            </Link>
+            </Link> */}
             <Link to="/projects" class="nav-link rainbow">
               Projects
             </Link>

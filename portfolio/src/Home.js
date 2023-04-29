@@ -18,6 +18,7 @@ function Home() {
           <div className="col-md-12 col-lg-6">
             <header id="main-header">
               <h2 className="head-title">William J. Burbridge</h2>
+              <hr></hr>
               <h2 className="head-title2">Junior Web Developer</h2>
             </header>
           </div>

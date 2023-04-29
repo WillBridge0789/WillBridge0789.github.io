@@ -11,6 +11,10 @@ body img {
     display: flex;
 }
 
+.container-fluid {
+    background: radial-gradient(circle at 30%, white, #fcf4ed);
+}
+
 #top-nav {
     box-shadow: 5px 3px 3px #BFC0C0;
 }
@@ -19,16 +23,16 @@ body img {
     color: #BFC0C0;
 }
 
-#main-header {
+#main-header, h2 {
     font-family: 'Permanent Marker', 'Courier New', Courier, monospace;
 }
 
 .main-para {
-    color: #1F1F1F;
-    /* height: 400px; */
-    width: 500px;
+    color: rgb(39, 24, 8);
+    height: 550px; 
+    width: 425px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 50px;
     font-size: x-large;
     /* border-width: 2px;
     border-style: solid; */
@@ -37,10 +41,7 @@ body img {
 }
 
 #mypic {
-    height: 550px;
-    width: 425px;
     border-style: none;
-    border-radius: 20px;
 } 
 
 /* #about_container {
@@ -75,6 +76,11 @@ a {
 /* a:hover {
     color: #EF835A;
 } */
+
+figcaption {
+    font-family: 'Permanent Marker', 'cursive';
+    color:rgb(39, 24, 8);
+}
 
 .nav-link,
 .navbar-brand,
@@ -122,10 +128,28 @@ li {
 #img4,
 #img5,
 #img6 {
-    /* height: 350px;
-    width: 350px; */
-    border-color: white;
+    height: 250px;
+    width: 300px;
+    box-shadow: 3px 3px 5px #4F5D75;
+    border-radius: 20px;
 }
+
+#img1:hover,
+#img2:hover,
+#img3:hover,
+#img4:hover,
+#img5:hover,
+#img6:hover {
+    border: linear-gradient(to right,
+    red, orange, yellow, green, blue, indigo, violet) 1;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
 
 #week1,
 #week2,
