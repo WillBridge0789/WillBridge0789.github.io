@@ -12,7 +12,7 @@ body img {
 }
 
 .container-fluid {
-    background: radial-gradient(circle at 30%, white, #fcf4ed);
+    background: radial-gradient(white 50%, #f8eee4);
 }
 
 #navbarNavAltMarkup {
@@ -23,12 +23,16 @@ body img {
     font-family: 'Permanent Marker', 'Courier New', Courier, monospace;
 }
 
+#email {
+    margin-bottom: 5px;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+}
+
 .main-para {
     color: rgb(39, 24, 8);
     height: 550px; 
     width: 425px;
     text-align: center;
-    border-radius: 50px;
     font-size: x-large;
     /* border-width: 2px;
     border-style: solid; */
@@ -36,10 +40,34 @@ body img {
             red, orange, yellow, green, blue, indigo, violet) 1; */
 }
 
+h1 {
+    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
 #mypic {
     border-style: none;
-    width: 475px;
+    margin-top: 20px;
+    width: 440px;
+    height: 525px;
 } 
+
+#linked-in {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#GitHub {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#linked-in:hover, #GitHub:hover {
+    background-color: orange;
+}
 
 /* #about_container {
     background: linear-gradient(to bottom, #1F1F1F, #BFC0C0, white);
@@ -50,6 +78,7 @@ body img {
 } */
 
 .head-title {
+    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
     font-size: 75px;
     padding: 30px;
     color: rgb(39, 24, 8);
@@ -68,7 +97,7 @@ body img {
 a {
     color: white;
     text-decoration: none;
-    font-family: 'Permanent Marker', 'cursive';
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
 /* a:hover {
@@ -76,19 +105,24 @@ a {
 } */
 
 figcaption {
-    font-family: 'Permanent Marker', 'cursive';
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
     color:rgb(39, 24, 8);
 }
 
 .nav-link {
     color: rgb(39, 24, 8);
-    font-family: 'Permanent Marker', 'cursive';
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
 .nav-link:hover,
 .navbar-brand:hover,
 .nav-home:hover {
     color: #4F5D75;
+}
+
+.navbar-brand {
+    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 #contact-header {
@@ -168,11 +202,12 @@ li {
 
 #main-footer {
     position: relative;
-    margin-top: -150px;
-    height: 150px;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
     clear: both;
     padding-top: 20px;
-    color: #BFC0C0;
+    color: #4F5D75;
     bottom: 0;
 }
 

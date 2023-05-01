@@ -23,7 +23,7 @@ function About() {
           <div className="row min-vh-100 gx-5 d-flex justify-content-center">
             <Image />
             <div className="col-md-6 col-sm-12 d-flex justify-content-center">
-              <p className="main-para mt-3 p-3">
+              <p className="main-para p-2">
                 Hi, my name is Will Burbridge!
                 <br />I used to work in the customer service/retail field for
                 several years. While working in customer service and retail, I
@@ -37,7 +37,7 @@ function About() {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

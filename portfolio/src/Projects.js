@@ -13,7 +13,9 @@ function Projects() {
       <NavBar />
       <div className="container text-center">
         <div className="row mt-3 d-flex justify-content-center">
-          <h2>Projects</h2>
+          <h1>
+            <strong>Projects</strong>
+          </h1>
         </div>
         <div className="row d-flex justify-content-center" data-aos="fade-up">
           <div className="col-md-4 d-flex justify-content-center mt-4">
@@ -31,7 +33,7 @@ function Projects() {
           <div className="col-md-4 d-flex justify-content-center mt-4">
             <a href="#">
               <figure>
-                <img src="./img/PHImage.jpg" id="img2" />
+                <img src="./img/mind-reader.png" id="img2" />
                 <figcaption>Mind Reader</figcaption>
               </figure>
             </a>
@@ -39,7 +41,7 @@ function Projects() {
           <div className="col-md-4 d-flex justify-content-center mt-4">
             <a href="#">
               <figure>
-                <img src="./img/PHImage.jpg" id="img3" />
+                <img src="./img/tictactoe.png" id="img3" />
                 <figcaption>Tic-Tac-Toe</figcaption>
               </figure>
             </a>
@@ -49,7 +51,7 @@ function Projects() {
           <div className="col-md-4 d-flex justify-content-center mt-4">
             <a href="#">
               <figure>
-                <img src="./img/PHImage.jpg" id="img4" />
+                <img src="./img/weather.png" id="img4" />
                 <figcaption>Weather App</figcaption>
               </figure>
             </a>
@@ -72,6 +74,7 @@ function Projects() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
