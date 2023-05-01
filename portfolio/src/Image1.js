@@ -7,7 +7,7 @@ function Image() {
     AOS.init();
   }, []);
   return (
-    <div className="col-md-6 col-sm-12 vh-100 d-flex justify-content-center">
+    <div className="col-md-4 col-sm-12 vh-100 d-flex justify-content-center">
       <img src="./img/Profile_pic2.JPEG" id="mypic" alt="Will_pic" />
     </div>
   );

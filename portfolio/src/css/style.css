@@ -30,8 +30,8 @@ body img {
 
 .main-para {
     color: rgb(39, 24, 8);
-    height: 550px; 
-    width: 425px;
+    height: 100%; 
+    width: 100%;
     text-align: center;
     font-size: x-large;
     /* border-width: 2px;
@@ -48,9 +48,10 @@ h1 {
 
 #mypic {
     border-style: none;
+    border-radius: 30px;
     margin-top: 20px;
-    width: 440px;
-    height: 525px;
+    width: 475px;
+    height: 625px;
 } 
 
 #linked-in {
