@@ -39,6 +39,51 @@ function About() {
               </p>
             </div>
           </div>
+          <div className="row d-flex justify-content-center m-4">
+            <h2 className="d-flex justify-content-center" data-aos="fade-up">
+              Skills
+            </h2>
+            <hr></hr>
+          </div>
+          <div
+            className="row d-flex justify-content-center m-4"
+            data-aos="fade-left"
+          >
+            <div className="col-md-6">
+              <img src="./img/about_skillIcon.jpg" id="skill-icon3" />
+            </div>
+          </div>
+          <div
+            className="row d-flex justify-content-center m-4"
+            data-aos="fade-right"
+          >
+            <div className="col-md-2 m-2">
+              <img src="./img/bootstrap5.png" className="skill-icon" />
+            </div>
+            <div className="col-md-2 m-2">
+              <img src="./img/react.png" className="skill-icon" />
+            </div>
+            <div className="col-md-2 m-2">
+              <img src="./img/sql.png" className="skill-icon" />
+            </div>
+            <div className="col-md-2 m-2">
+              <img src="./img/postgres.png" className="skill-icon" />
+            </div>
+          </div>
+          <div
+            className="row d-flex justify-content-center m-4"
+            data-aos="fade-left"
+          >
+            <div className="col-md-2 m-2">
+              <img src="./img/python.png" className="skill-icon" />
+            </div>
+            <div className="col-md-2 m-2">
+              <img src="./img/django.png" className="skill-icon" />
+            </div>
+            <div className="col-md-2 m-2">
+              <img src="./img/django-rest.png" className="skill-icon" />
+            </div>
+          </div>
         </div>
       </div>
       <Footer />

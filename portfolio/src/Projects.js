@@ -73,6 +73,16 @@ function Projects() {
             </a>
           </div>
         </div>
+        <div className="row d-flex justify-content-center" data-aos="fade-up">
+          <div className="col-md-6 d-flex justify-content-center mt-4">
+            <a href="https://ainc-comic-craze.web.app/">
+              <figure>
+                <img src="./img/marvel_display_img4.jpg" id="img7" />
+                <figcaption>Capstone: Comic Craze</figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

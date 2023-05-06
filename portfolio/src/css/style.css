@@ -158,6 +158,23 @@ li {
     border-radius: 20px;
 }
 
+#img7 {
+    height: 300px;
+    width: 475px;
+    box-shadow: 3px 3px 5px #4F5D75;
+    border-radius: 20px;
+}
+
+#skill-icon3 {
+    height: 250px;
+    width: 575px;
+}
+
+.skill-icon {
+    height: 175px;
+    width: 175px;
+}
+
 #img1:hover,
 #img2:hover,
 #img3:hover,
