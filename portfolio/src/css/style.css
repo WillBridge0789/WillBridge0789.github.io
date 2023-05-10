@@ -185,8 +185,7 @@ li {
 #img4:hover,
 #img5:hover,
 #img6:hover {
-    border: linear-gradient(to right,
-    red, orange, yellow, green, blue, indigo, violet) 1;
+   
 }
 
 .overlay {

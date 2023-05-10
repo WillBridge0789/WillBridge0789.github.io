@@ -1,10 +1,20 @@
 import NavBar from "./Nav";
 import Footer from "./Footer";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Projects() {
+  const [hovered, setHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setHovered(false);
+  };
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -16,6 +26,16 @@ function Projects() {
           <h1>
             <strong>Projects</strong>
           </h1>
+        </div>
+        <div className="row d-flex justify-content-center" data-aos="fade-up">
+          <div className="col-md-6 d-flex justify-content-center mt-4">
+            <a href="https://ainc-comic-craze.web.app/">
+              <figure>
+                <img src="./img/marvel_display_img4.jpg" id="img7" />
+                <figcaption>Capstone: Comic Craze</figcaption>
+              </figure>
+            </a>
+          </div>
         </div>
         <div className="row d-flex justify-content-center" data-aos="fade-up">
           <div className="col-md-4 d-flex justify-content-center mt-4">
@@ -69,16 +89,6 @@ function Projects() {
               <figure>
                 <img src="./img/ReactRestaurant.png" id="img6" />
                 <figcaption>React Restaurant</figcaption>
-              </figure>
-            </a>
-          </div>
-        </div>
-        <div className="row d-flex justify-content-center" data-aos="fade-up">
-          <div className="col-md-6 d-flex justify-content-center mt-4">
-            <a href="https://ainc-comic-craze.web.app/">
-              <figure>
-                <img src="./img/marvel_display_img4.jpg" id="img7" />
-                <figcaption>Capstone: Comic Craze</figcaption>
               </figure>
             </a>
           </div>
