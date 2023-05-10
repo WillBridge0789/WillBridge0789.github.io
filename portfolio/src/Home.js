@@ -21,7 +21,7 @@ function Home() {
                 <strong>William J. Burbridge</strong>
               </h2>
               <hr></hr>
-              <h2 className="head-title2">Junior Developer</h2>
+              <h2 className="head-title2">Full Stack Developer</h2>
             </header>
           </div>
           <SelfImg />

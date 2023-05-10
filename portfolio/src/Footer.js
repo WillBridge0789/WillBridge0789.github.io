@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="fixed-bottom">
+    <div>
       <footer className="" id="main-footer">
         <div className="row">
           <div className="col d-flex justify-content-center">
