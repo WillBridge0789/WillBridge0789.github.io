@@ -50,7 +50,10 @@ function About() {
                   Skills
                 </h2>
               </div>
-              <div className="d-flex flex-wrap justify-content-center px-2">
+              <div
+                className="d-flex flex-wrap justify-content-center px-2"
+                data-aos="fade-left"
+              >
                 <hr></hr>
                 <img src="./img/Web/python.png" className="skill-icon" />
                 <img src="./img/Web/django.png" className="skill-icon" />
@@ -60,7 +63,10 @@ function About() {
                 <img src="./img/Web/css.png" className="skill-icon" />
                 <img src="./img/Web/html.png" className="skill-icon" />
               </div>
-              <div className="col-12 d-flex flex-wrap justify-content-center px-2 mb-3">
+              <div
+                className="col-12 d-flex flex-wrap justify-content-center px-2 mb-3"
+                data-aos="fade-right"
+              >
                 <img src="./img/Web/react.png" className="skill-icon" />
                 <img src="./img/Web/git.png" className="skill-icon" />
                 <img src="./img/Web/github.png" className="skill-icon" />
