@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+// import GlobeIcon from "./img/Web/globe.png";
 
 function Projects() {
   const [hovered, setHovered] = useState(false);
@@ -37,19 +38,39 @@ function Projects() {
             </a>
           </div>
         </div>
+
         <div className="row d-flex justify-content-center" data-aos="fade-up">
-          <div className="col-md-4 d-flex justify-content-center mt-4">
-            <a href="http://willbridge0789.github.io/alarm_clock/">
-              <figure>
-                <img
-                  src="./img/Alarm_clock.png"
-                  className="overlay"
-                  id="img1"
-                />
-                <figcaption>Alarm Clock</figcaption>
-              </figure>
-            </a>
+          <div className="col-md-6 d-flex justify-content-center mt-4 card-port">
+            <div
+              className="position-relative"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src="./img/Alarm_clock.png" alt="Marvel Pic" id="img7" />
+              {hovered && (
+                <div className="overlay d-flex flex-column justify-content-center align-items-center">
+                  <h4 className="overlay-header pb-1">Alarm Clock</h4>
+                  <ul className="overlay-icons list-unstyled d-flex flex-row">
+                    <li className="web-links">
+                      <a
+                        href="http://willbridge0789.github.io/alarm_clock/"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Capstone"
+                      >
+                        <img
+                          src="./img/Web/globe.png"
+                          alt="Web Application"
+                          className="web-icons"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              )}
+            </div>
           </div>
+
           <div className="col-md-4 d-flex justify-content-center mt-4">
             <a href="#">
               <figure>
@@ -58,6 +79,7 @@ function Projects() {
               </figure>
             </a>
           </div>
+
           <div className="col-md-4 d-flex justify-content-center mt-4">
             <a href="#">
               <figure>
@@ -67,6 +89,7 @@ function Projects() {
             </a>
           </div>
         </div>
+
         <div className="row d-flex justify-content-center" data-aos="fade-up">
           <div className="col-md-4 d-flex justify-content-center mt-4">
             <a href="#">
@@ -76,6 +99,7 @@ function Projects() {
               </figure>
             </a>
           </div>
+
           <div className="col-md-4 d-flex justify-content-center mt-4">
             <a href="https://willbridge0789.github.io/to-do-list/">
               <figure>
@@ -84,6 +108,7 @@ function Projects() {
               </figure>
             </a>
           </div>
+
           <div className="col-md-4 d-flex justify-content-center mt-4">
             <a href="https://willbridge0789.github.io/react-restaurant/">
               <figure>
