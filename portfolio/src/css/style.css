@@ -1,0 +1,256 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&family=Permanent+Marker&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-size: 100%;
+}
+
+body img {
+    width: 100%;
+    display: flex;
+}
+
+.container-fluid {
+    background: radial-gradient(white 50%, #f8eee4);
+}
+
+#navbarNavAltMarkup {
+    color: #BFC0C0;
+}
+
+#main-header, h2 {
+    font-family: 'Permanent Marker', 'Courier New', Courier, monospace;
+}
+
+#email {
+    margin-bottom: 5px;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+}
+
+.main-para {
+    color: rgb(39, 24, 8);
+    margin-top: 15px;
+    height: 100%; 
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    /* border-width: 2px;
+    border-style: solid; */
+    /* border-image: linear-gradient(to right,
+            red, orange, yellow, green, blue, indigo, violet) 1; */
+}
+
+h1 {
+    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
+#mypic {
+    border-style: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    width: 475px;
+    height: 625px;
+} 
+
+#linked-in {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#GitHub {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#linked-in:hover, #GitHub:hover {
+    background-color: orange;
+}
+
+/* #about_container {
+    background: linear-gradient(to bottom, #1F1F1F, #BFC0C0, white);
+} */
+
+/* #blog_row {
+    background: linear-gradient(to bottom, #1F1F1F, #BFC0C0, white);
+} */
+
+.head-title {
+    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    padding: 30px;
+    color: rgb(39, 24, 8);
+}
+
+.head-title2 {
+    font-size: 50px;
+    padding: 0px 30px 10px 30px;
+    color: rgb(39, 24, 8);
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+}
+
+.sub-title {
+    color: #BFC0C0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+}
+
+/* a:hover {
+    color: #EF835A;
+} */
+
+figcaption {
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    color:rgb(39, 24, 8);
+}
+
+.nav-link {
+    color: rgb(39, 24, 8);
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+}
+
+.nav-link:hover,
+.navbar-brand:hover,
+.nav-home:hover {
+    color: #4F5D75;
+}
+
+.navbar-brand {
+    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#contact-header {
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 50px;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+li {
+    color: #4F5D75;
+    font-size: large;
+}
+
+#contact_p {
+    color: #BFC0C0;
+    font-size: larger;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
+    height: 250px;
+    width: 300px;
+    box-shadow: 3px 3px 5px #4F5D75;
+    border-radius: 20px;
+}
+
+#img7 {
+    height: 300px;
+    width: 475px;
+    box-shadow: 3px 3px 5px #4F5D75;
+    border-radius: 20px;
+}
+
+#skill-icon3 {
+    height: 140px;
+    width: 400px;
+    margin: 5px;
+}
+
+.skill-icon {
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+}
+
+#img1:hover,
+#img2:hover,
+#img3:hover,
+#img4:hover,
+#img5:hover,
+#img6:hover {
+   
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+
+#week1,
+#week2,
+#week3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+}
+
+.card {
+    /* background-color: lightgrey; */
+    color: black;
+    padding: 0;
+    box-shadow: 5px 3px 3px #1F1F1F;
+}
+
+.card:hover {
+    background-color: #1F1F1F;
+    color:#BFC0C0;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right,
+            red, orange, yellow, green, blue, indigo, violet) 1;
+}
+
+#main-footer {
+    position: relative;
+    /* padding: 10px; */
+    width: 100%;
+    /* clear: both; */
+    background: radial-gradient(white 50%, #f8eee4);
+    padding: 40px 0px 20px 0px;
+    color: #4F5D75;
+    bottom: 0;
+}
+
+
+/*---------------------------Dark Mode-----------------------------*/
+
+:root {
+    --bg-color: #FFFFFF; /* default background color */
+    --text-color: #000000; /* default text color */
+}
+  
+body.dark {
+    background-color: #1F1F1F; /* dark mode background color */
+    color: #FFFFFF; /* dark mode text color */
+}
+  
+button.dark-mode {
+    background-color: black;
+    color: var(--text-color);
+    border: solid;
+    border-radius: 4px;
+    padding: 8px;
+    /* cursor: pointer; */
+}
+  
