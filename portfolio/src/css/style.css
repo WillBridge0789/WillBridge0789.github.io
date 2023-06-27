@@ -1,6 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pacifico&family=Permanent+Marker&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Londrina+Sketch&display=swap');
 body {
     background-color: rgb(255, 255, 255);
     background-size: 100%;
@@ -20,12 +19,12 @@ body img {
 }
 
 #main-header, h2 {
-    font-family: 'Permanent Marker', 'Courier New', Courier, monospace;
+    font-family: 'Londrina Sketch', 'Courier New', Courier, monospace;
 }
 
 #email {
     margin-bottom: 5px;
-    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 
 .main-para {
@@ -80,17 +79,30 @@ h1 {
 } */
 
 .head-title {
-    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
     font-size: 75px;
     padding: 30px;
-    color: rgb(39, 24, 8);
+    color: rgb(44, 41, 37);
 }
 
 .head-title2 {
     font-size: 50px;
     padding: 0px 30px 10px 30px;
     color: rgb(39, 24, 8);
-    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about-me {
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#proj-heading {
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
+}
+
+#skills-head {
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
 }
 
 .sub-title {
@@ -124,12 +136,12 @@ figcaption {
 }
 
 .navbar-brand {
-    font-family: 'Londrina Sketch', Arial, Helvetica, sans-serif;
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
 
 #contact-header {
-    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
     color: black;
     margin-top: 50px;
 }

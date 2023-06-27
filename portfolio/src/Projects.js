@@ -23,9 +23,7 @@ function Projects() {
       <NavBar />
       <div className="container text-center">
         <div className="row mt-3 d-flex justify-content-center">
-          <h1>
-            <strong>Projects</strong>
-          </h1>
+          <h1 id="proj-heading">Projects</h1>
         </div>
         <div className="row d-flex justify-content-center" data-aos="fade-up">
           <div className="col-md-6 d-flex justify-content-center mt-4">

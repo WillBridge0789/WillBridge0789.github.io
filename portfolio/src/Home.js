@@ -17,9 +17,7 @@ function Home() {
         <div className="row">
           <div className="col-md-12 col-lg-6">
             <header id="main-header">
-              <h2 className="head-title">
-                <strong>William J. Burbridge</strong>
-              </h2>
+              <h2 className="head-title">William J. Burbridge</h2>
               <hr></hr>
               <h2 className="head-title2">Full Stack Developer</h2>
             </header>
