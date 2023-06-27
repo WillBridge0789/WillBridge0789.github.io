@@ -9,7 +9,7 @@ function Contact() {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h1 id="contact-header">Contact Me</h1>
+              <h1 id="contact-head">Contact Me</h1>
               <p className="mb-5" id="contact_p">
                 For any questions, job inquiries, etc., feel free to contact me!
               </p>

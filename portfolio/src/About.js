@@ -25,8 +25,8 @@ function About() {
             <div className="col-lg-8 col-md-12 d-flex flex-wrap justify-content-center">
               <div className="d-flex flex-wrap px-5">
                 <div className="main-para p-2">
-                  <p className="head-title2 mb-0 pb-0">
-                    Hi, my name is Will Burbridge!
+                  <p className="mb-0 pb-0" id="about-head">
+                    A little bit about me
                   </p>
                   <br />
                   <p className="mt-0 pt-0">
@@ -46,7 +46,7 @@ function About() {
               </div>
 
               <div className="col-12 d-flex justify-content-center">
-                <h2 className="pt-3" data-aos="fade-up">
+                <h2 className="pt-3" id="skill-head" data-aos="fade-left">
                   Skills
                 </h2>
               </div>
