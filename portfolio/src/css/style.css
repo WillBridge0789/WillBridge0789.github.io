@@ -157,7 +157,7 @@ li {
     font-size: larger;
 }
 
-#img1,
+/* #img1,
 #img2,
 #img3,
 #img4,
@@ -167,9 +167,9 @@ li {
     width: 300px;
     box-shadow: 3px 3px 5px #4F5D75;
     border-radius: 20px;
-}
+} */
 
-#img7 {
+.proj-img {
     height: 300px;
     width: 475px;
     box-shadow: 3px 3px 5px #4F5D75;

@@ -55,23 +55,56 @@ function About() {
                 data-aos="fade-left"
               >
                 <hr></hr>
-                <img src="./img/Web/python.png" className="skill-icon" />
-                <img src="./img/Web/django.png" className="skill-icon" />
-                <img src="./img/Web/sql.png" className="skill-icon" />
-                <img src="./img/Web/javascript.png" className="skill-icon" />
-                <img src="./img/Web/bootstrap.png" className="skill-icon" />
-                <img src="./img/Web/css.png" className="skill-icon" />
-                <img src="./img/Web/html.png" className="skill-icon" />
+                <img
+                  src="./img/Web/python.png"
+                  alt="Python"
+                  className="skill-icon"
+                />
+                <img
+                  src="./img/Web/django.png"
+                  alt="Django"
+                  className="skill-icon"
+                />
+                <img src="./img/Web/sql.png" alt="SQL" className="skill-icon" />
+                <img
+                  src="./img/Web/javascript.png"
+                  alt="JavaScript"
+                  className="skill-icon"
+                />
+                <img
+                  src="./img/Web/bootstrap.png"
+                  alt="Bootstrap"
+                  className="skill-icon"
+                />
+                <img
+                  src="./img/Web/css.png"
+                  alt="CSS3"
+                  className="skill-icon"
+                />
+                <img
+                  src="./img/Web/html.png"
+                  alt="HTML5"
+                  className="skill-icon"
+                />
               </div>
               <div
                 className="col-12 d-flex flex-wrap justify-content-center px-2 mb-3"
                 data-aos="fade-right"
               >
-                <img src="./img/Web/react.png" className="skill-icon" />
-                <img src="./img/Web/git.png" className="skill-icon" />
-                <img src="./img/Web/github.png" className="skill-icon" />
+                <img
+                  src="./img/Web/react.png"
+                  alt="ReactJS"
+                  className="skill-icon"
+                />
+                <img src="./img/Web/git.png" alt="Git" className="skill-icon" />
+                <img
+                  src="./img/Web/github.png"
+                  alt="GitHub"
+                  className="skill-icon"
+                />
                 <img
                   src="./img/Web/microsoftoffice.png"
+                  alt="Microsoft Office Suite"
                   className="skill-icon"
                 />
               </div>
