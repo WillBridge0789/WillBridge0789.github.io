@@ -26,18 +26,41 @@ function Projects() {
         <div className="row mt-3 d-flex justify-content-center">
           <h1 id="project-head">Projects</h1>
         </div>
+
         <div className="row d-flex justify-content-center" data-aos="fade-up">
-          <div className="col-md-6 d-flex justify-content-center mt-4">
-            <a href="https://ainc-comic-craze.web.app/">
-              <figure>
-                <img
-                  src="./img/marvel_display_img4.jpg"
-                  alt="Comic Craze"
-                  className="proj-img"
-                />
-                <figcaption>Capstone: Comic Craze</figcaption>
-              </figure>
-            </a>
+          <div className="col-md-6 d-flex justify-content-center mt-4 m-3 card-port">
+            <div
+              className="position-relative"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img
+                src="./img/marvel_display_img4.jpg"
+                alt="Comic Craze Cover"
+                className="proj-img"
+              />
+              {hovered && (
+                <div className="overlay d-flex flex-column justify-content-center align-items-center">
+                  <h4 className="overlay-header pb-1">Comic Craze Capstone</h4>
+                  <ul className="overlay-icons list-unstyled d-flex flex-row">
+                    <li className="web-links">
+                      <a
+                        href="https://ainc-comic-craze.web.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Comic Craze"
+                      >
+                        <img
+                          src="./img/Web/globe.png"
+                          alt="Web Application"
+                          className="web-icons"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
