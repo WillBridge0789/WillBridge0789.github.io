@@ -62,6 +62,41 @@ function Projects() {
               )}
             </div>
           </div>
+
+          <div className="col-md-6 d-flex justify-content-center mt-4 m-3 card-port">
+            <div
+              className="position-relative"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img
+                src="./img/Fireball_app.png"
+                alt="Fireball Home page"
+                className="proj-img"
+              />
+              {hovered && (
+                <div className="overlay d-flex flex-column justify-content-center align-items-center">
+                  <h4 className="overlay-header pb-1">Fireball App</h4>
+                  <ul className="overlay-icons list-unstyled d-flex flex-row">
+                    <li className="web-links">
+                      <a
+                        href="https://meteorstrikes.surge.sh/"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Fireball App"
+                      >
+                        <img
+                          src="./img/Web/globe.png"
+                          alt="Web Application"
+                          className="web-icons"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
         </div>
 
         <div className="row d-flex justify-content-center" data-aos="fade-up">
