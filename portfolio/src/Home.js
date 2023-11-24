@@ -19,7 +19,7 @@ function Home() {
             <header id="main-header">
               <h2 className="head-title">William J. Burbridge</h2>
               <hr></hr>
-              <h2 className="head-title2">Full Stack Developer</h2>
+              <h2 className="head-title2">Software Developer</h2>
             </header>
           </div>
           <SelfImg />
