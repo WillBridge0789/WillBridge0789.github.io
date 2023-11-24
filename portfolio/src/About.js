@@ -38,7 +38,7 @@ function About() {
                     <hr></hr>I joined Awesome Inc's bootcamp to further my depth
                     and breadth in code and to create things on a technical
                     level. I've used my artistic creativity and my drive to
-                    understand to explore full stack programming. When not
+                    understand to explore software development. When not
                     learning to code, my main hobby is producing digital art
                     where I can create characters and some small graphic novels.
                   </p>
